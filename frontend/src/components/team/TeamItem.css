@@ -1,0 +1,28 @@
+.card {
+  width: 16rem;
+  height: 18rem;
+  margin: 1rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 0.5px 8px 0.5px;
+  border-radius: 15rem;
+  transition: all 250ms ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 2px 2px 20px 8px;
+  width: 16.2rem;
+  height: 18.2rem;
+}
+
+.img {
+  height: 10rem;
+  width: 10rem;
+  margin: auto;
+  border-radius: 50%;
+}
+
+/* CSS for team component */
+.shadow {
+  text-shadow: 2px 2px 4px pink;
+}
