@@ -1,0 +1,33 @@
+.about {
+  margin-top: 4.5rem;
+  text-align: center;
+  font-family: "DynaPuff", cursive;
+  font-size: 1.5rem;
+}
+
+.about .ques {
+  color: rgb(152, 70, 245);
+}
+
+.logo {
+  padding-left: 5rem;
+  width: 28rem;
+  height: 28rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 570px) {
+  .about {
+    margin-top: 5rem;
+    font-size: 1.2rem;
+  }
+  .logo {
+    width: 25rem;
+    height: 25rem;
+  }
+}
