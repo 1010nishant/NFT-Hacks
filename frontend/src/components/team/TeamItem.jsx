@@ -7,7 +7,7 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const TeamItem = ({ teamdata }) => {
   return (
     <>
-      <Card className="card">
+      <Card className="box">
         <Card.Img className="img" variant="top" src={teamdata.image} />
         <Card.Body className="text-center">
           <Card.Title>{teamdata.name}</Card.Title>

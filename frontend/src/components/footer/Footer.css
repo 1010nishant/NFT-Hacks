@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  height: 4rem;
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue;
+}
+
+.dev a{
+    text-decoration: none;
+    color: white;
+}

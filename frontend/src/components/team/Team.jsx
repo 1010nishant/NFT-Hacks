@@ -7,14 +7,18 @@ import TeamItem from "./TeamItem";
 const Team = () => {
   return (
     <>
-      <Container>
-        <h1 className="text-secondary text-center display-2 shadow">
-          Our Team
-        </h1>
-
-        <Row className="d-flex flex-wrap justify-content-around my-2">
+      <Container className="head" id="team">
+        <h1 className="text-primary text-center display-2">Our Team</h1>
+        <Row justifycontent="center" alignitems="center">
           {teamdata.map((td) => (
-            <Col md={4}>
+            <Col
+              justifycontent="center"
+              alignitems="center"
+              sm={12}
+              lg={4}
+              md={6}
+              key={td._id}
+            >
               <TeamItem teamdata={td} />
             </Col>
           ))}

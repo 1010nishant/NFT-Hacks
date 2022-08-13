@@ -1,0 +1,16 @@
+#basic-navbar-nav .top {
+  font-size: 1.5rem;
+}
+
+.nav-img {
+  width: 58px;
+  height: 58%;
+  border-radius: 50%;
+  border: 2px solid rgb(78, 10, 134);
+  box-shadow: 2px 2px 20px 6px rgb(238, 180, 238);
+}
+
+.nav-img:hover {
+  width: 60px;
+  height: 60px;
+}

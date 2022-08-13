@@ -1,0 +1,17 @@
+.design {
+  box-shadow: 2px 2px 20px 6px;
+}
+
+.themeBox {
+  width: 18rem;
+  box-shadow: 2px 2px 20px 6px;
+  margin-bottom: 2.4rem;
+}
+
+/* more smaller */
+@media (max-width: 570px) {
+  .themeBox {
+    margin: auto;
+    margin-bottom: 3rem;
+  }
+}
